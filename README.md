@@ -1,0 +1,1 @@
+This repository demonstrates a common Kotlin error related to handling empty collections after using the `filter` function. The `bug.kt` file contains the problematic code, which throws an exception if the filtered list is empty. The `bugSolution.kt` file provides a solution using safe calls and the `orElse` function to handle this scenario gracefully.
